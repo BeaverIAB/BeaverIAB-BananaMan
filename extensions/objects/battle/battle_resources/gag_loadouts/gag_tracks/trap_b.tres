@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="Track" format=3 uid="uid://2q0nqsgss1fu"]
+
+[ext_resource type="Script" uid="uid://cwnjrxjvy5kc3" path="res://objects/battle/battle_resources/toon_attacks/toon_attack.gd" id="1_44yp3"]
+[ext_resource type="Resource" uid="uid://w71ordj2e8fq" path="res://mods-unpacked/BeaverIAB-BananaMan/extensions/objects/battle/battle_resources/gag_loadouts/gags/trap_b/banana1.tres" id="2_hs10l"]
+[ext_resource type="Resource" uid="uid://dxdi07mv6xsna" path="res://mods-unpacked/BeaverIAB-BananaMan/extensions/objects/battle/battle_resources/gag_loadouts/gags/trap_b/banana2.tres" id="3_gpkvq"]
+[ext_resource type="Resource" uid="uid://iboas8af8n5e" path="res://mods-unpacked/BeaverIAB-BananaMan/extensions/objects/battle/battle_resources/gag_loadouts/gags/trap_b/banana3.tres" id="4_y1h6p"]
+[ext_resource type="Resource" uid="uid://dbrpdjtd2og3j" path="res://mods-unpacked/BeaverIAB-BananaMan/extensions/objects/battle/battle_resources/gag_loadouts/gags/trap_b/banana4.tres" id="5_mf07h"]
+[ext_resource type="Resource" uid="uid://gmelb3byq3n3" path="res://mods-unpacked/BeaverIAB-BananaMan/extensions/objects/battle/battle_resources/gag_loadouts/gags/trap_b/banana5.tres" id="6_amrd5"]
+[ext_resource type="Resource" uid="uid://b0wdygtcr1gls" path="res://mods-unpacked/BeaverIAB-BananaMan/extensions/objects/battle/battle_resources/gag_loadouts/gags/trap_b/banana6.tres" id="7_ayyie"]
+[ext_resource type="Resource" uid="uid://s2hj60306nlb" path="res://mods-unpacked/BeaverIAB-BananaMan/extensions/objects/battle/battle_resources/gag_loadouts/gags/trap_b/banana7.tres" id="8_w88n6"]
+[ext_resource type="Resource" uid="uid://bki40c6rfy1v7" path="res://objects/battle/battle_resources/gag_loadouts/gags/trap/banana_peel.tres" id="9_ecy6j"]
+[ext_resource type="Resource" uid="uid://ctuvtylm8x51g" path="res://objects/battle/battle_resources/gag_loadouts/gags/trap/rake.tres" id="10_54dti"]
+[ext_resource type="Resource" uid="uid://cn0duh0rw6c1y" path="res://objects/battle/battle_resources/gag_loadouts/gags/trap/marbles.tres" id="11_2xvww"]
+[ext_resource type="Resource" uid="uid://bqbc0s71tpdgx" path="res://objects/battle/battle_resources/gag_loadouts/gags/trap/quicksand.tres" id="12_3evha"]
+[ext_resource type="Resource" uid="uid://cktfkn8wvmlqv" path="res://objects/battle/battle_resources/gag_loadouts/gags/trap/trap_door.tres" id="13_7uq34"]
+[ext_resource type="Resource" uid="uid://c86syhj0hylkc" path="res://objects/battle/battle_resources/gag_loadouts/gags/trap/portable_hole.tres" id="14_u0udt"]
+[ext_resource type="Resource" uid="uid://bo731q0esb6yy" path="res://objects/battle/battle_resources/gag_loadouts/gags/trap/tnt.tres" id="15_jokvu"]
+[ext_resource type="Script" uid="uid://b6b6pfoqyolr" path="res://objects/battle/battle_resources/gag_loadouts/track.gd" id="16_wd365"]
+
+[resource]
+script = ExtResource("16_wd365")
+track_type = 1
+track_name = "Trap"
+track_color = Color(0.988235, 0.992157, 0.333333, 1)
+gags = Array[ExtResource("1_44yp3")]([ExtResource("2_hs10l"), ExtResource("3_gpkvq"), ExtResource("4_y1h6p"), ExtResource("5_mf07h"), ExtResource("6_amrd5"), ExtResource("7_ayyie"), ExtResource("8_w88n6")])
+mod_gags = Dictionary[ExtResource("1_44yp3"), int]({
+ExtResource("9_ecy6j"): 0,
+ExtResource("10_54dti"): 1,
+ExtResource("11_2xvww"): 2,
+ExtResource("12_3evha"): 3,
+ExtResource("13_7uq34"): 4,
+ExtResource("14_u0udt"): 5,
+ExtResource("15_jokvu"): 6
+})

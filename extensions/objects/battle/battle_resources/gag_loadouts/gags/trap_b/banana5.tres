@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="TrapToss" format=3 uid="uid://gmelb3byq3n3"]
+
+[ext_resource type="Texture2D" uid="uid://d3s8uol0n1834" path="res://ui_assets/battle/gags/inventory_bannana_peel.png" id="1_c1ypy"]
+[ext_resource type="PackedScene" uid="uid://dha1jvcr7co3d" path="res://models/props/gags/banana_peel/banana_peel.tscn" id="2_wbf5p"]
+[ext_resource type="Script" uid="uid://cgs0v0f7jhwsc" path="res://objects/battle/battle_resources/toon_attacks/trap_toss.gd" id="3_cbpak"]
+[ext_resource type="AudioStream" uid="uid://ckic65w7wfr7l" path="res://audio/sfx/battle/gags/trap/TL_banana.ogg" id="4_eoc3o"]
+
+[resource]
+script = ExtResource("3_cbpak")
+model = ExtResource("2_wbf5p")
+toss_sfx = ExtResource("4_eoc3o")
+icon = ExtResource("1_c1ypy")
+damage = 110
+action_name = "Banana Peel"

@@ -1,0 +1,66 @@
+[gd_resource type="Resource" script_class="PlayerCharacter" format=3 uid="uid://bvafnov6qhodv"]
+
+[ext_resource type="Script" uid="uid://combwqypom1ru" path="res://objects/items/classes/item.gd" id="1_syri1"]
+[ext_resource type="Script" uid="uid://o2fe7ud1faj6" path="res://objects/battle/battle_resources/stats.gd" id="2_vxr8b"]
+[ext_resource type="Script" uid="uid://c8kas2j4io1jh" path="res://objects/toon/clothing/toon_bottoms.gd" id="3_rql8b"]
+[ext_resource type="Texture2D" uid="uid://b1kvuslqkdaf8" path="res://mods-unpacked/BeaverIAB-BananaMan/extensions/models/toon/textures/clothes/shorts/tt_t_chr_avt_shorts_cogbuster.png" id="4_u13v4"]
+[ext_resource type="Script" uid="uid://yg7gxug4rab" path="res://objects/toon/toon_dna.gd" id="5_60fdh"]
+[ext_resource type="Script" uid="uid://dfqwh4jmdy0iw" path="res://objects/toon/clothing/toon_shirt.gd" id="6_iobux"]
+[ext_resource type="Texture2D" uid="uid://di75m2coecqra" path="res://mods-unpacked/BeaverIAB-BananaMan/extensions/models/toon/textures/clothes/shirts/tt_t_chr_avt_shirt_cogbuster.png" id="7_vqs0y"]
+[ext_resource type="Texture2D" uid="uid://d2pujashti3vu" path="res://mods-unpacked/BeaverIAB-BananaMan/extensions/models/toon/textures/clothes/shirts/tt_t_chr_avt_shirtSleeve_cogbuster.png" id="8_12ngw"]
+[ext_resource type="Resource" uid="uid://ckuj5eh53wg7" path="res://mods-unpacked/BeaverIAB-BananaMan/extensions/objects/battle/battle_resources/gag_loadouts/loadouts/cj_loadout.tres" id="9_nk5qj"]
+[ext_resource type="Script" uid="uid://ts8xpgftpmty" path="res://objects/player/character.gd" id="10_um1es"]
+[ext_resource type="Resource" uid="uid://bcfe42iwkuujh" path="res://mods-unpacked/BeaverIAB-BananaMan/extensions/objects/items/resources/passive/cj_boost.tres" id="11_nf0um"]
+[ext_resource type="Resource" uid="uid://cljlopgycrn08" path="res://mods-unpacked/BeaverIAB-BananaMan/extensions/objects/items/resources/passive/cj_setup.tres" id="12_sjlcy"]
+
+[sub_resource type="Resource" id="Resource_4mp7f"]
+script = ExtResource("2_vxr8b")
+damage = 0.75
+evasiveness = 1.1
+speed = 1.1
+
+[sub_resource type="Resource" id="Resource_2bsmm"]
+script = ExtResource("3_rql8b")
+texture = ExtResource("4_u13v4")
+
+[sub_resource type="Resource" id="Resource_17x8t"]
+script = ExtResource("6_iobux")
+shirt_texture = ExtResource("7_vqs0y")
+sleeve_texture = ExtResource("8_12ngw")
+color_type = 1
+
+[sub_resource type="Resource" id="Resource_ppw05"]
+script = ExtResource("5_60fdh")
+body_type = 1
+leg_type = 1
+head_index = 4
+eyelashes = false
+head_color = Color(0.19215687, 0.56078434, 0.77254903, 1)
+torso_color = Color(0.19215687, 0.56078434, 0.77254903, 1)
+leg_color = Color(0.19215687, 0.56078434, 0.77254903, 1)
+shirt = SubResource("Resource_17x8t")
+bottoms = SubResource("Resource_2bsmm")
+
+[resource]
+script = ExtResource("10_um1es")
+character_name = "Sir C.J. Rhinoscooter"
+character_summary = "25% less damage
+Trapless
+Trap targets random Cogs each round
+Trap is always Banana Peel (damage varies)"
+character_blurb = "He's goin' bananas!!! This Toon loves giving Cogs the 'slip'!"
+dna = SubResource("Resource_ppw05")
+gag_loadout = ExtResource("9_nk5qj")
+starting_laff = 30
+starting_items = Array[ExtResource("1_syri1")]([ExtResource("11_nf0um"), ExtResource("12_sjlcy")])
+base_stats = SubResource("Resource_4mp7f")
+starting_gags = Dictionary[String, int]({
+"Drop": 0,
+"Lure": 1,
+"Sound": 0,
+"Squirt": 0,
+"Throw": 1
+})
+additional_stats = Dictionary[String, Variant]({
+"luck": 1.05
+})

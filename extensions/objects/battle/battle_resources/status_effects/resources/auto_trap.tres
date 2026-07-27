@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="StatusAutoTrap" format=3 uid="uid://et5nd4t5gtj"]
+
+[ext_resource type="Script" uid="uid://bgnmd3g70eupx" path="res://mods-unpacked/BeaverIAB-BananaMan/extensions/objects/battle/battle_resources/status_effects/auto_trap.gd" id="1_wqpas"]
+
+[resource]
+script = ExtResource("1_wqpas")
+rounds = 0
+id = 53

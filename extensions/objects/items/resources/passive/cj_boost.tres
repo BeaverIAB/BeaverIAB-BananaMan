@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://bcfe42iwkuujh"]
+
+[ext_resource type="Script" uid="uid://bbwi8bu5xke1f" path="res://mods-unpacked/BeaverIAB-BananaMan/extensions/objects/items/custom/item_cj_boost.gd" id="1_4c8ww"]
+[ext_resource type="Script" uid="uid://combwqypom1ru" path="res://objects/items/classes/item.gd" id="2_8bvi1"]
+
+[resource]
+script = ExtResource("2_8bvi1")
+qualitoon = 4
+item_name = "Banana Boost"
+big_description = "Unique to Sir C.J. Rhinoscooter."
+item_script = ExtResource("1_4c8ww")
+shop_category_color = Color(0.196078, 0.580392, 0.917647, 1)
