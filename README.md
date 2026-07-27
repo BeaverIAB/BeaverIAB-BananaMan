@@ -1,5 +1,5 @@
 # Sir C.J. Rhinoscooter — The Banana Man
-### He's goin' bananas!!! This Toon loves giving Cogs the 'slip'!
+-# He's goin' bananas!!! This Toon loves giving Cogs the 'slip'!
 My personal Toon, created way back in 2007, is now playable in Toontown: The Grindworks!
 
 Inspired by the existing character, Barnacle Bessie, this Toon is unable to carry the Trap gag (lore accurate!),  instead a Banana Peel is placed in front of a random Cog every round, as the player progresses the maximum damage of the Banana Peels increases.
