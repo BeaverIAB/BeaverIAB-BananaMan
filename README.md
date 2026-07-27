@@ -25,4 +25,4 @@ This is my first time making a mod for Toontown: The Grindworks, my first time p
 
 ## Credits
 - Aldercat, inspiration & help! (https://github.com/BeastnodeG/)
-- The Toontown Grindworks Team, for making the original game! (https://itsevan.itch.io/toontown-the-grindworks)
+- The Toontown Grindworks Team, inspiration for autotrap mechanic, making the original game! (https://itsevan.itch.io/toontown-the-grindworks)
