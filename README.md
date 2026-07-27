@@ -6,7 +6,7 @@ Inspired by the existing character, Barnacle Bessie, this Toon is unable to carr
 
 The game recognises the Banana Peels as valid Trap gags meaning any items the player picks up which effects that track (e.g. Detective Hat) will work with them too!
 
-Stats adjusted from Bessie to maintain balance with similar mechanics but lean towards how I build characters in RPGs: Fast, fragile, predictable.
+Base stats adjusted from Bessie to maintain balance but lean towards fast, fragile, predictable gameplay.
 
 This is my first time making a mod for Toontown: The Grindworks, my first time programming in Godot, and my first time uploading to GitHub so do let me know if there's any issues or improvements I can make!
 
