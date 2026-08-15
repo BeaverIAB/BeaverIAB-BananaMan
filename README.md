@@ -23,6 +23,11 @@ This is my first time making a mod for Toontown: The Grindworks, my first time p
 1. Create a folder called `mods` in the `/Applications` folder.
 2. Place `BeaverIAB-BananaMan.zip` inside the `mods` folder, do not extract `BeaverIAB-BananaMan.zip`.
 
+## Things I'd like to do
+- Modify the vanilla Trapped status effect to include damage values (new mod)
+- Tie AutoTrap to a starting accessory (preferably Clash's Banana Peel Hat) to allow for trading/equipping by other characters
+- Tie all character abilities to items for trading/equipping by other characters (new mod)
+
 ## Credits
 - Aldercat, inspiration & help! (https://github.com/BeastnodeG/)
 - The Toontown Grindworks Team, inspiration for autotrap mechanic, making the original game! (https://itsevan.itch.io/toontown-the-grindworks)
