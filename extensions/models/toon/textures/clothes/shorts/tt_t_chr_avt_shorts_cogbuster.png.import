@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1kvuslqkdaf8"
-path="res://.godot/imported/tt_t_chr_avt_shorts_cogbuster.png-8714a33b8bccde92e635bb13616bed77.ctex"
+path="res://.godot/imported/tt_t_chr_avt_shorts_cogbuster.png-1a6fe814c5c51883fd207b276a947227.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods/BeaverIAB-BananaMan/mods-unpacked/BeaverIAB-BananaMan/extensions/models/toon/textures/clothes/shorts/tt_t_chr_avt_shorts_cogbuster.png"
-dest_files=["res://.godot/imported/tt_t_chr_avt_shorts_cogbuster.png-8714a33b8bccde92e635bb13616bed77.ctex"]
+source_file="res://mods-unpacked/BeaverIAB-BananaMan/extensions/models/toon/textures/clothes/shorts/tt_t_chr_avt_shorts_cogbuster.png"
+dest_files=["res://.godot/imported/tt_t_chr_avt_shorts_cogbuster.png-1a6fe814c5c51883fd207b276a947227.ctex"]
 
 [params]
 
