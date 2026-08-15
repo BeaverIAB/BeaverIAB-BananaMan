@@ -11,4 +11,4 @@ model = ExtResource("2_fjcam")
 toss_sfx = ExtResource("4_7cocj")
 icon = ExtResource("1_nbflh")
 damage = 190
-action_name = "Banana Peel"
+action_name = "Tier 7 Banana Peel"

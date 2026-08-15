@@ -44,4 +44,4 @@ func get_status_name() -> String:
 	return "Incoming Banana!"
 
 func get_description() -> String:
-	return "Will be hit by %s\nDamage: %s" % [trap_gag.action_name, trap_gag.get_true_damage(1.0, 0, load('res://mods-unpacked/BeaverIAB-BananaMan/extensions/objects/battle/battle_resources/gag_loadouts/gag_tracks/trap_b.tres'))]
+	return "Will be hit by a %s\nDamage: %s" % [trap_gag.action_name, trap_gag.get_true_damage(1.0, 0, load('res://mods-unpacked/BeaverIAB-BananaMan/extensions/objects/battle/battle_resources/gag_loadouts/gag_tracks/trap_b.tres'))]

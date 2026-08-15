@@ -11,4 +11,4 @@ model = ExtResource("2_wbf5p")
 toss_sfx = ExtResource("4_eoc3o")
 icon = ExtResource("1_c1ypy")
 damage = 110
-action_name = "Banana Peel"
+action_name = "Tier 5 Banana Peel"
