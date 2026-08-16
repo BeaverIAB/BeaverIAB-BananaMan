@@ -32,7 +32,7 @@ func try_apply_trap(manager: BattleManager) -> void:
 
 func get_random_trap_resource() -> GagTrap:
 	var idx: int = 0
-	var min_trap_level: int = 0    # No minimum Trap level, got a weak Trap? Find another method to kill or Lure and roll the dice again!
-	var max_trap_level: int = Util.floor_number + 1    # Tier 3 unlocks on Floor 1    Tier 4 unlocks on Floor 2    ...    Tier 7 unlocks on Floor 5!
+	var min_trap_level: int = 0    # No minimum Trap level no matter what floor the player is on.
+	var max_trap_level: int = mini(Util.floor_number + 1, 6)    # Max Trap level is two tiers higher than the current floor. Hardcap at tier 7 for Endless Mode compat.
 	idx = randi_range(min_trap_level, max_trap_level)
 	return TRAP_GAGS.gags[idx].duplicate(true)
